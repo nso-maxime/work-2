@@ -1,4 +1,4 @@
-/* Apply background image to body */
+ /* Apply background image to body */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -137,6 +137,11 @@ body {
   margin: 50px auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.text{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
 .about p{
     font-size: 20px;
 }
@@ -169,6 +174,12 @@ body {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.food-item{
+font-size: 20px;
+}
+.food-name{
+  font-size: 20px;
 }
 form {
   display: flex;
