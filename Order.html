@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order |Africa Meals  Restaurant</title>
+  <link rel="stylesheet" href="max.css">
+</head>
+<body>
+  <header>
+     <div class="navbar">
+        <div class="logo">African Meals  Restaurant</div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="order.html">Order Now</a>
+        </div>
+    </div>
+  <section class="order">
+    <h3>Place Your Order</h3>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="food">Choose a Meal:</label>
+      <select id="food" name="food">
+        <option>Grilled Chicken</option>
+        <option>Vegetable Pizza</option>
+        <option>Spaghetti </option>
+        <option>Beef Burger</option>
+        <option>Fried rice </option>
+        <option>Rice and stew</option>
+        <option>Rice and beans</option>
+        <option>Fufu and Soup</option>
+        <option>Garri and eru</option>
+        <option>Corn fufu and Soup</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" required></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 African Meals  Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
