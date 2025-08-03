@@ -1,8 +1,8 @@
  /* Apply background image to body */
 body {
+    background-image: url('pizza2.jpg');
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('pizza2.jpg'); /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -15,15 +15,28 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(7, 29, 29, 0.8); /* semi-transparent background */
-    padding: 15px 35px;
+    padding: 15px 25px;
 }
 
 .navbar .logo {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
 }
-
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav-links li a:hover{
+ color:  rgba(7, 29, 29, 0.8); /* semi-transparent background */
+}
 .navbar .menu a {
     color: #fff;
     text-decoration: none;
@@ -49,7 +62,7 @@ body {
 }
 
 .info-card {
-    background-color:#1a3233;;
+    background-color: rgba(7, 29, 29, 0.8); /* semi-transparent background */
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
@@ -61,7 +74,7 @@ body {
 .info-card img {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #1a3233;;
+    border-bottom: 1px solid rgba(7, 29, 29, 0.8); /* semi-transparent background */
 }
 
 .card-text {
@@ -107,7 +120,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,7 +143,7 @@ body {
 .hero .btn {
   display: inline-block;
   margin-top: 15px;
-  background: #1a3233;
+  background:  rgba(7, 29, 29, 0.8); /* semi-transparent background */
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -230,7 +243,7 @@ footer {
   padding: 15px 10px;
   font-size: 30px;
   position: relative;
-  background-color: #1a3233;
+  background-color: rgba(7, 29, 29, 0.8); /* semi-transparent background */
   color: white;
   width: 100%;
   bottom: 0;
