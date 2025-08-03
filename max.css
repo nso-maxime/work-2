@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(7, 29, 29, 0.8); /* semi-transparent background */
-    padding: 15px 30px;
+    padding: 15px 35px;
 }
 
 .navbar .logo {
