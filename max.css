@@ -107,6 +107,9 @@ body {
     color: #fff;
     text-align: center;
 }
+.order h3{
+  font-size: 25px;
+}
 .order-btn {
     background-color: #1a3233;
     color: #fff;
@@ -217,7 +220,7 @@ input, select, textarea, button {
 }
 
 button {
-  background-color:#1a3233;
+  background-color:#2a6769;
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
