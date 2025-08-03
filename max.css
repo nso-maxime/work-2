@@ -9,32 +9,53 @@ body {
 }
 
 
-/* Navigation bar styles */
+/* Basic styling */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(7, 29, 29, 0.8); /* semi-transparent background */
-    padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012e28;
+  padding: 10px 20px;
+  flex-wrap: wrap;
 }
 
-.navbar .logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.navbar .menu a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 25px;
+/* Nav links default (desktop) */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.navbar .menu a:hover {
-    text-decoration: none;
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
 }
+
+/* MOBILE FIX - stack nav links and resize */
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+
+  .navbar {
+    align-items: flex-start;
+}
+
 /* Center content on homepage */
 .home-content {
     text-align: center;
