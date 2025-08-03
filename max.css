@@ -19,7 +19,7 @@ body {
 }
 
 .navbar .logo {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
     color: #fff;
 }
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .navbar .menu a:hover {
@@ -234,4 +234,5 @@ footer {
   background-color: #1a3233;
   color: white;
   width: 100%;
+  bottom: 0;
 }
