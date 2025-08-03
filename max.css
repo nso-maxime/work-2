@@ -104,7 +104,6 @@ body {
     width: 100%;
 }
 .hero{
-  background-image: url('pizza2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
